@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cấu hình môi trường ảo (Virtual Environments)
+venv/
+env/
+.env/
+
+# Cấu hình riêng của VS Code
+.vscode/
+
+# Dữ liệu (Chặn các file csv/excel phát sinh trong quá trình chạy)
+*.csv
+*.xlsx
+!data/titanic.csv
+
+# Các file tạm của hệ điều hành
+.DS_Store
+Thumbs.db
